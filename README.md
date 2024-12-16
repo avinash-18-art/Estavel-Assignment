@@ -1,115 +1,115 @@
-Write the objective of the assignment yourself
+# Stonepedia Homepage Redesign
 
-### Refer to the image below:
+## Objective
 
-Add UI reference image yourself
+The goal of this project is to **redesign the homepage of [Stonepedia](https://stonepedia.in/)** with a fresh, creative, and innovative layout that enhances user experience and modernizes the design. This will be a **front-end only** project, and the final version will be deployed on a platform like **Vercel** or **Netlify**. The redesign will take inspiration from modern web design trends and will avoid mimicking the current homepage to foster originality.
 
-<div style="text-align: center;">
-     <!-- <img src="remove this text and add the image URL" alt="ui"> -->
-</div>
-<br/>
+---
 
-### Design Files
+## Project Overview
 
-<details>
-<summary>Add Route Name</summary>
-<br/>
-Add the design files according to the route (if any) and responsiveness
+### Tools and Frameworks
 
-<!-- - [Extra Small (Size < 576px) and Small (Size >= 576px)](remove this text and add the image URL here)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](remove this text and add the image URL here) -->
+- **Front-End Framework**: React.js or Next.js
+- **Styling**: CSS, SCSS, or TailwindCSS
+- **UI Library (Optional)**: Material-UI, Bootstrap, Chakra UI
+- **Deployment Platforms**: Vercel, Netlify
 
-</details>
+---
 
-### Set Up Instructions
+### Project Setup and Initialization
 
-<details>
-<summary>Click to view</summary>
+#### Set up the Project:
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
+1. Initialize a new project:
+   - For React: `npx create-react-app stonepedia-homepage`
+   - For Next.js: `npx create-next-app stonepedia-homepage`
+   - For plain HTML/CSS/JS: Manually set up the directory structure.
+2. Install dependencies (optional UI libraries, fonts, Axios for data fetching, etc.).
 
-</details>
+---
 
-### Assignment Completion Instructions
+### Folder Structure
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
+stonepedia-homepage/ ├── public/ # Static assets like images and icons ├── src/ │ ├── components/ # Reusable components (e.g., Navbar, Footer) │ ├── pages/ # Pages (if using React Router or Next.js) │ ├── styles/ # Global and component-specific styles │ ├── App.js # Main component (React) or index.js (Next.js) ├── package.json # Dependencies ├── README.md # Project documentation
 
-The app must have the following functionalities:
+---
 
-- Add all the functionalities to be achieved(according to the route, if any) yourself
+## Design Guidelines
 
-</details>
+### Key Features to Include:
 
-### Assignment Completion Checklist
+1. **Hero Section**:
+   - High-quality banner image or video background.
+   - Clear call-to-action (CTA) like “Explore Now” or “Learn More”.
+   - Concise tagline reflecting the website's essence.
+2. **Navigation Bar**:
+   - Responsive navigation with clear links to major sections.
+   - Optionally, include a search bar.
+3. **Content Sections**:
+   - **About Us**: Briefly describe the brand or platform.
+   - **Featured Products/Services**: Showcase products or categories with eye-catching cards or grids.
+   - **Testimonials/Reviews**: Highlight customer feedback.
+   - **Contact Section**: Provide a form or clickable email/phone links.
+4. **Footer**:
+   - Include social media links, copyright text, and quick links.
+5. **Responsiveness**:
+   - Mobile-first design.
+   - Test on multiple screen sizes to ensure proper layout and functionality.
 
-<details>
-<summary>Click to view</summary>
+### Creative Guidelines:
 
-- **Along with the below points, add your checklist specific to the assignment**
+- Use a **modern, clean, and minimalist layout**.
+- Incorporate **neutral colors** with subtle accents for branding.
+- **Typography**: Use web-safe and readable fonts (e.g., Google Fonts).
+- **Images and Icons**: Use royalty-free or licensed high-quality visuals.
 
-- Read the instructions given in the assignment carefully and list down the **Assignment Completion Checklist** for the assignment and start working on it
-- The completion Checklist includes the below-mentioned points
-  - I have completed all the functionalities asked in the assignment
-  - I have used only the resources (Frameworks, Design files, APIs, third-party packages) mentioned in the assignment
-  - I have modified the README.md file based on my assignment instructions
-  - I have completed the assignment **ON TIME**
-- **Note:**
-  - Ensure that you have marked all the checklist points in your completion checklist before submitting the assignment
-  </details>
+---
 
-### Quick Tips
+## Deployment
 
-<details>
-<summary>Click to view</summary>
-<br>
+### Deploying Your Homepage:
 
-- Add third-party packages list yourself
-</details>
+1. Deploy the project to **Vercel** or **Netlify**:
+   - **Vercel**:
+     - Create an account on [Vercel](https://vercel.com).
+     - Link your GitHub repository.
+     - Deploy with one-click integration.
+   - **Netlify**:
+     - Drag and drop the build folder or integrate with GitHub.
+2. Ensure your deployed URL is live and accessible.
 
-### Important Note
+---
 
-<details>
-<summary>Click to view</summary>
-<br/>
+## Submission Requirements
 
-- Add any important note here, like user credentials for authentication.
+### Deliverables:
 
-</details>
+1. **GitHub Repository**:
 
-### Resources
+   - Push your project to a GitHub repository with a clear folder structure.
+   - Include detailed commit messages for each significant update.
 
-<details>
-<summary>Data Fetch URLs</summary>
-<br/>
+2. **Live Link**:
 
-- Add the URLs list to fetch the data yourself
+   - Provide the live deployed URL (from Vercel or Netlify).
 
-</details>
+3. **README.md**:
+   - Include setup instructions, technologies used, and a description of the redesign.
 
-<details>
-<summary>Image URLs</summary>
-<br/>
+---
 
-- Add the list of all image URLs needed in the assignment yourself.
+## Evaluation Criteria
 
-</details>
+- **Creativity and Innovation**:
+  - How unique and fresh is the design compared to traditional layouts?
+- **User Experience (UX)**:
 
-<details>
-<summary>Colors</summary>
-<br/>
+  - Is the design intuitive, responsive, and user-friendly?
 
-Add the text and background colours to be used in the assignment yourself.
+- **Code Quality**:
 
-<!-- <div style="background-color: #3b82f6; width: 150px; padding: 10px; color: white">Hex: #3b82f6</div> -->
+  - Is the code clean, modular, and well-documented?
 
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Add the font-families to be used in the assignment yourself.
-
-</details>
+- **Deployment**:
+  - Is the live link functional, and does it meet the design and usability requirements?
